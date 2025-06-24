@@ -1,12 +1,14 @@
 # Setup Instructions
+## Clone
 ```bash
-# Clone
 git clone https://github.com/edwardhe10/leavoda-test.git
 cd leavoda-test
-
-# Install dependencies
+```
+## Install dependencies
+```bash
 npm install
-
-# Run
+```
+## Run
+```bash
 npm start
 ```
