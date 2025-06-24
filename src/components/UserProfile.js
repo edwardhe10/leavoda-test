@@ -13,7 +13,7 @@ export default function UserProfile() {
         <Typography variant="h5" align="center">{user.firstName} {user.lastName}</Typography>
         <Typography align="center">{user.gender}, {user.age} years</Typography>
         <Typography variant="h6" style={{ marginTop: 16 }}>Address</Typography>
-        <Typography>{user.address.address}, {user.address.city}, {user.address.state}</Typography>
+        <Typography>{user.address.address}, {user.address.city}, {user.address.state}, {user.address.postalCode}, {user.address.country}</Typography>
         <Typography variant="h6" style={{ marginTop: 16 }}>Work</Typography>
         <Typography>{user.company.name} - {user.company.department} ({user.company.title})</Typography>
         <Typography variant="h6" style={{ marginTop: 16 }}>Contact</Typography>
